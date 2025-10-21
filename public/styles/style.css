@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* nav bar */
+nav{
+  margin-top: 8px;
+  padding: 12px;
+  display: flex;
+  
+}
+img#website-icon{
+  width: 45px;
+}
+a#nav-item-home{
+  margin: 0 8px;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  background-color: #61abf4a6;
+  color: #000;
+  border-radius: 6px;
+}
+a#nav-item-home:hover{
+  background-color: #61abf484;
+}
+/* Break points */
