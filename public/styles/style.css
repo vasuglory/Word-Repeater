@@ -1,28 +1,73 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 /* nav bar */
-nav{
-  margin-top: 8px;
+header {
+  background-color: #ffffff;
+  margin-top: 4px;
   padding: 12px;
   display: flex;
-  
+  justify-content: space-between;
+  /* position: relative; */
 }
-img#website-icon{
-  width: 45px;
+nav {
+  width: 150px;
+  height: 100vh;
+  /* margin-top: 40px; */
+
+  background-color: #61abf4a6;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: none;
 }
-a#nav-item-home{
-  margin: 0 8px;
+img#website-icon {
+  width: 40px;
+}
+
+img#menu-icon {
+  width: 30px;
+  cursor: pointer;
+}
+div.menu-icon-container {
+  z-index: 50;
+}
+
+a#nav-item-home {
+  width: 100%;
+  height: fit-content;
+  margin: 50px 4px 0 4px;
+
   display: block;
   padding: 12px;
   text-decoration: none;
   font-size: 1.3rem;
-  background-color: #61abf4a6;
+  background-color: #fff;
   color: #000;
   border-radius: 6px;
 }
-a#nav-item-home:hover{
-  background-color: #61abf484;
+nav.display-visible{
+  display: flex;
 }
+a#nav-item-home:hover {
+  background-color: #ebe7e7;
+}
+
 /* Break points */
+/* Tablet */
+@media (min-width: 481px) {
+  /* 
+    no need of menu - icon 
+    disbale it here and enable the nav menu by fixing it's position.
+  */
+}
+
+/* Laptop */
+@media (min-width: 769px) {
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+}

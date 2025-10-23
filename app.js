@@ -8,5 +8,5 @@ app.get("/",(req,res)=>{
   res.render("home");
 })
 app.listen(port,()=>{
-  console.log(`server listening on url https://localhost:${port}`);
+  console.log(`server listening on url http://localhost:${port}`);
 })
